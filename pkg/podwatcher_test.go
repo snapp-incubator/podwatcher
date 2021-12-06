@@ -1,10 +1,8 @@
 package pkg
 
 import (
-	"testing"
-)
-import (
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestGetListOfPods(t *testing.T) {
