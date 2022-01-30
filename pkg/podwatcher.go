@@ -49,7 +49,6 @@ func Watch(headlessService string, interval time.Duration, newPodCallBack func(a
 			}
 			pods = currentPods
 		}
-
-		time.Sleep(interval * time.Second)
+		time.Sleep(interval)
 	}
 }

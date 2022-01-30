@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	pw "github.com/mohammadiahmad/podwatcher/pkg"
+	pw "github.com/snapp-incubator/podwatcher/pkg"
 	"github.com/spf13/cobra"
 	"os"
 	"os/signal"
